@@ -136,13 +136,17 @@
   transition: all 0.04s ease-in-out;
 }
 
-.header-wrapper .header .header__content-wrapper .header__form .search-button:hover {
+.header-wrapper .header .header__content-wrapper .header__form .search:focus {
+  background-color: #e7f3ff;
+}
+
+.header-wrapper .header .header__content-wrapper .header__form .search-button:hover, .header-wrapper .header .header__content-wrapper .header__form .search-button:focus {
   background: #3e55bb;
   -webkit-transition: all 0.04s ease-in-out;
   transition: all 0.04s ease-in-out;
 }
 
-.header-wrapper .header .header__content-wrapper .header__form .search-button:hover .search-ico {
+.header-wrapper .header .header__content-wrapper .header__form .search-button:hover .search-ico, .header-wrapper .header .header__content-wrapper .header__form .search-button:focus .search-ico {
   visibility: visible;
   -webkit-transition: all 0.04s ease-in-out;
   transition: all 0.04s ease-in-out;
@@ -202,6 +206,10 @@
   transition: all 0.1s ease-in-out;
 }
 
+.header-wrapper .header .header__content-wrapper .header__scroll:hover .scroll-link:focus {
+  border: 2px orange solid !important;
+}
+
 .header-wrapper .header .header__content-wrapper .header__scroll:active .scroll-link .scroll-title {
   color: #3979d8;
 }
@@ -244,7 +252,11 @@
           justify-content: space-between;
 }
 
-.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .nav__item {
+.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .link {
+  text-decoration: none;
+}
+
+.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .link .nav__item {
   font-family: "Aleo", sans-serif;
   color: #fff;
   font-size: 14px;
@@ -258,7 +270,7 @@
   cursor: pointer;
 }
 
-.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .nav__item:hover {
+.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .link:hover {
   -webkit-transform: translatey(-5px);
           transform: translatey(-5px);
   text-shadow: 0px 10px 10px rgba(13, 26, 68, 0.87);
@@ -266,8 +278,12 @@
   transition: all 0.1s ease-in-out;
 }
 
-.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .nav__item:active {
+.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .link:active {
   color: #1c3b69;
+}
+
+.nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .link:focus {
+  outline: 2px orange solid;
 }
 
 @media (max-width: 992px) {
@@ -460,6 +476,13 @@
   transition: all 0.3s ease-in-out;
 }
 
+.why-choose-us-wrapper-fluid .why-choose-us-wrapper .why-choose-us .why-choose-us__article-wrapper .why-choose-us__article .why-choose-us__button:focus {
+  background-position-x: 110px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 2px white solid;
+}
+
 .why-choose-us-wrapper-fluid .why-choose-us-wrapper .why-choose-us .why-choose-us__article-wrapper .why-choose-us__article .why-choose-us__button:active {
   background-position-x: 0px;
   background-color: #6083e4;
@@ -638,6 +661,10 @@
   transition: all 0.1s ease-in-out;
 }
 
+.article .article__button:focus {
+  border: 2px white solid;
+}
+
 .places-section2-wrapper {
   background-image: url(./images/travel-place/Rocks.jpg);
   background-color: #cccccc;
@@ -805,16 +832,24 @@
           justify-content: space-between;
 }
 
-.footer-wrapper .footer .footer__contact .footer__social-box .social-ico {
+.footer-wrapper .footer .footer__contact .footer__social-box .footer__link {
+  cursor: pointer;
+}
+
+.footer-wrapper .footer .footer__contact .footer__social-box .footer__link .social-ico {
   color: #e8e8e8;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   cursor: pointer;
 }
 
-.footer-wrapper .footer .footer__contact .footer__social-box .social-ico:hover {
+.footer-wrapper .footer .footer__contact .footer__social-box .footer__link .social-ico:hover {
   color: #5474fd;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+}
+
+.footer-wrapper .footer .footer__contact .footer__social-box .footer__link:focus {
+  outline: 2px orange solid !important;
 }
 /*# sourceMappingURL=style.css.map */

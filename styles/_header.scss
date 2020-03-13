@@ -87,7 +87,10 @@
                         transition: all 0.04s ease-in-out;
                     }
                 }
-                .search-button:hover{
+                .search:focus{
+                    background-color: rgb(231, 243, 255);
+                }
+                .search-button:hover, .search-button:focus{
                     background: #3e55bb;
                     transition: all 0.04s ease-in-out;
                     .search-ico{
@@ -139,7 +142,9 @@
                         transition: all 0.1s ease-in-out;
                     }
                 }
-                
+                .scroll-link:focus{
+                    border: 2px orange solid !important;
+                }
             }
             .header__scroll:active{
                 .scroll-link{
@@ -175,25 +180,31 @@
             .nav__item-wrapper{
                 display: flex;
                 justify-content: space-between;
-                .nav__item{
-                    font-family: $interface-font;
-                    color: $white;
-                    font-size: 14px;
-                    text-transform: uppercase;
-                    font-weight: 500;
-                    padding-right: 15px;
-                    padding-left: 25px;
-                    text-align: center;
-                    transition: all 0.1s ease-in-out;
-                    cursor: pointer;
+                .link{
+                    text-decoration: none;
+                    .nav__item{
+                        font-family: $interface-font;
+                        color: $white;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        padding-right: 15px;
+                        padding-left: 25px;
+                        text-align: center;
+                        transition: all 0.1s ease-in-out;
+                        cursor: pointer;
+                    }
                 }
-                .nav__item:hover{
+                .link:hover{
                     transform: translatey(-5px);
                     text-shadow: 0px 10px 10px rgba(13,26,68,0.87);
                     transition: all 0.1s ease-in-out;
                 }
-                .nav__item:active{
+                .link:active{
                     color: rgb(28, 59, 105);
+                }
+                .link:focus{
+                    outline: 2px orange solid;
                 }
             }
         }
@@ -238,3 +249,4 @@
         min-width: 650px !important;
     }
 }
+

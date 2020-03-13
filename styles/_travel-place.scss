@@ -37,6 +37,9 @@
     .article__button:active{
         @include button-act;
     }
+    .article__button:focus{
+        border: 2px white solid;
+    }
 }
 
 .places-section2-wrapper{

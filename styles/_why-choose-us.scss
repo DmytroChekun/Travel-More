@@ -91,6 +91,10 @@
                     .why-choose-us__button:hover{
                         @include button-hov;
                     }
+                    .why-choose-us__button:focus{
+                        @include button-hov;
+                        border: 2px white solid;
+                    }
                     .why-choose-us__button:active{
                         @include button-act;
                     }
