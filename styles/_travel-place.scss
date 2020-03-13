@@ -1,0 +1,56 @@
+.places-section1-wrapper{
+    background-image: url(../images/travel-place/house.jpg);
+    @include background-fluid;
+    .places-section1{
+        padding-top: 228px;
+        padding-bottom: 100px;
+
+        .places-section1__article-wrapper{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.article{
+        background-color: rgba(35, 35, 35, 0.902);
+        width: 540px;
+        height: 371px;
+        min-width: 320px;
+        padding: 45px 30px 50px 30px;
+    .article__country{
+        @include p-title-top;
+    }
+    .article__title{
+        @include p-title;
+    }
+    .article__subtitle{
+        @include paragraph;
+    }
+    .article__button{
+        @include button;
+    }
+    .article__button:hover{
+        @include button-hov;
+    }
+    .article__button:active{
+        @include button-act;
+    }
+}
+
+.places-section2-wrapper{
+    background-image: url(../images/travel-place/Rocks.jpg);
+    @include background-fluid;
+    .places-section2{
+        padding-top: 228px;
+        padding-bottom: 100px;
+        .places-section2__article-wrapper{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+*{transition: all 0.1s ease-in-out;}

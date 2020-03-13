@@ -1,0 +1,117 @@
+@media (max-width: 1130px){
+    .why-choose-us__article-wrapper{
+        width: 100% !important;
+    }
+    .why-choose-us__picbox-section{
+        width: 100% !important;
+    }
+    .why-choose-us__article-wrapper{
+        margin-top: 50px !important;
+        margin-bottom: 20px !important;
+        text-align: center;
+    }
+    .why-choose-us__button{
+        margin: 0 auto;
+    }
+    .why-choose-us__picbox-section{
+        padding-top: 20px !important;
+        padding-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .why-choose-us__pic{
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+}
+@media (max-width: 992px){
+    
+}
+
+@media (max-width: 767px){
+    
+    .why-choose-us__picbox-section{
+        padding-top: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-us__pic{
+        padding: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    
+}
+
+@media (max-width: 538px){
+    .why-choose-us__button{
+        margin-top: -15px;  
+    }
+}
+
+.why-choose-us-wrapper-fluid{
+    background-image: url(../images/why-choose-us/background.jpg);
+    @include background-fluid;
+    .why-choose-us-wrapper{
+        .why-choose-us{
+            .why-choose-us__article-wrapper{
+                margin-top: 195px;
+                margin-bottom: 130px;
+                width: 50%;
+                padding-left: 15px;
+                .why-choose-us__article{
+                    height: 357px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    .why-choose-us__title{
+                        @include title;
+                    }
+                    .why-choose-us__subtitle{
+                        font-family: $text-font;
+                        font-size: 16px;
+                        color: $soft-white;
+                        font-weight: 300;
+                        letter-spacing: 0.065em;
+                        line-height: 1.6em;
+                        margin-bottom: 40px;
+                    }
+                    .why-choose-us__subtitle--align1{
+                        margin-top: 45px;
+                    }
+                    .why-choose-us__subtitle--align2{
+                        margin-top: -15px;
+                    }
+                    .why-choose-us__button{
+                        @include button;
+                    }
+                    .why-choose-us__button:hover{
+                        @include button-hov;
+                    }
+                    .why-choose-us__button:active{
+                        @include button-act;
+                    }
+                }
+            }
+        }
+        .why-choose-us__picbox-section{
+            padding-top: 120px;
+            padding-left: 80px;
+            width: 50%;
+            .why-choose-us__picbox{
+                .why-choose-us__pic{
+
+                }
+                .why-choose-us__pic--left{  
+                    padding-bottom: 5px;
+                }
+                .why-choose-us__pic--right{
+                    padding-left: 125px;
+                }
+            }
+        }
+    }
+}
