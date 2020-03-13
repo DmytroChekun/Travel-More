@@ -20,7 +20,7 @@ $md-white: #fefefe;
 @mixin button {
     color: $white;
     background-color:$blue;
-    background-image: url(../images/button-img.svg);
+    background-image: url(./images/button-img.svg);
     background-repeat: no-repeat;
     background-position-x: -110px;
     height: 60px !important;

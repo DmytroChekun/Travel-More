@@ -454,7 +454,7 @@
 .why-choose-us-wrapper-fluid .why-choose-us-wrapper .why-choose-us .why-choose-us__article-wrapper .why-choose-us__article .why-choose-us__button {
   color: #fff;
   background-color: #5474fd;
-  background-image: url(../images/button-img.svg);
+  background-image: url(./images/button-img.svg);
   background-repeat: no-repeat;
   background-position-x: -110px;
   height: 60px !important;
@@ -632,7 +632,7 @@
 .article .article__button {
   color: #fff;
   background-color: #5474fd;
-  background-image: url(../images/button-img.svg);
+  background-image: url(./images/button-img.svg);
   background-repeat: no-repeat;
   background-position-x: -110px;
   height: 60px !important;
