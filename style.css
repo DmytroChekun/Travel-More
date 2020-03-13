@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700&display=swap");
 @font-face {
   font-family: "Aleo";
-  src: url("../fonts/aleo-light-webfont.woff2") format("woff2"), url("../fonts/aleo-light-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.woff2") format("woff2"), url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-bold-webfont.woff2") format("woff2"), url("../fonts/aleo-bold-webfont.woff") format("woff");
+  src: url("./fonts/aleo-light-webfont.woff2") format("woff2"), url("./fonts/aleo-light-webfont.woff") format("woff"), url("./fonts/aleo-regular-webfont.woff2") format("woff2"), url("./fonts/aleo-regular-webfont.woff") format("woff"), url("./fonts/aleo-bold-webfont.woff2") format("woff2"), url("./fonts/aleo-bold-webfont.woff") format("woff");
 }
 
 @-webkit-keyframes float {
@@ -119,6 +119,7 @@
   letter-spacing: 0.1em;
   -webkit-transition: all 0.04s ease-in-out;
   transition: all 0.04s ease-in-out;
+  cursor: pointer;
 }
 
 .header-wrapper .header .header__content-wrapper .header__form .search-button .search-text {
@@ -254,6 +255,7 @@
   text-align: center;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+  cursor: pointer;
 }
 
 .nav-wrapper-fluid .nav-wrapper .nav .nav__item-wrapper .nav__item:hover {
@@ -378,7 +380,7 @@
 }
 
 .why-choose-us-wrapper-fluid {
-  background-image: url(../images/why-choose-us/background.jpg);
+  background-image: url(./images/why-choose-us/background.jpg);
   background-color: #cccccc;
   background-position-y: bottom;
   background-size: cover;
@@ -449,6 +451,7 @@
   letter-spacing: 0.065em;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .why-choose-us-wrapper-fluid .why-choose-us-wrapper .why-choose-us .why-choose-us__article-wrapper .why-choose-us__article .why-choose-us__button:hover {
@@ -619,6 +622,7 @@
   letter-spacing: 0.065em;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .article .article__button:hover {
@@ -805,6 +809,7 @@
   color: #e8e8e8;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+  cursor: pointer;
 }
 
 .footer-wrapper .footer .footer__contact .footer__social-box .social-ico:hover {

@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700&display=swap");
 @font-face {
     font-family: "Aleo";
-    src: url("../fonts/aleo-light-webfont.woff2") format("woff2"),
-           url("../fonts/aleo-light-webfont.woff") format("woff"),
-           url("../fonts/aleo-regular-webfont.woff2") format("woff2"),
-           url("../fonts/aleo-regular-webfont.woff") format("woff"),
-           url("../fonts/aleo-bold-webfont.woff2") format("woff2"),
-           url("../fonts/aleo-bold-webfont.woff") format("woff");
+    src: url("./fonts/aleo-light-webfont.woff2") format("woff2"),
+           url("./fonts/aleo-light-webfont.woff") format("woff"),
+           url("./fonts/aleo-regular-webfont.woff2") format("woff2"),
+           url("./fonts/aleo-regular-webfont.woff") format("woff"),
+           url("./fonts/aleo-bold-webfont.woff2") format("woff2"),
+           url("./fonts/aleo-bold-webfont.woff") format("woff");
    }
 $text-font: "Josefin Sans", sans-serif;
 $interface-font: "Aleo", sans-serif;
@@ -32,6 +32,7 @@ $md-white: #fefefe;
     font-weight: 600;
     letter-spacing: 0.065em;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 @mixin title {
     font-family: $interface-font;

@@ -74,6 +74,7 @@
                     font-weight: 600;
                     letter-spacing: 0.1em;
                     transition: all 0.04s ease-in-out;
+                    cursor: pointer;
                     .search-text{
                         vertical-align: middle;
                     }
@@ -184,6 +185,7 @@
                     padding-left: 25px;
                     text-align: center;
                     transition: all 0.1s ease-in-out;
+                    cursor: pointer;
                 }
                 .nav__item:hover{
                     transform: translatey(-5px);
