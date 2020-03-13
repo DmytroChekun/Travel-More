@@ -13,7 +13,7 @@
 
 
 .header-wrapper{
-    background-image: url(../images/header/header-background.jpg);
+    background: url(./images/header/header-background.jpg);
     @include background-fluid;
     .header{
         .header__content-wrapper{

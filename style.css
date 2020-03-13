@@ -36,7 +36,7 @@
 }
 
 .header-wrapper {
-  background-image: url(../images/header/header-background.jpg);
+  background: url(./images/header/header-background.jpg);
   background-color: #cccccc;
   background-position-y: bottom;
   background-size: cover;
@@ -544,7 +544,7 @@
 }
 
 .places-section1-wrapper {
-  background-image: url(../images/travel-place/house.jpg);
+  background-image: url(./images/travel-place/house.jpg);
   background-color: #cccccc;
   background-position-y: bottom;
   background-size: cover;
@@ -635,7 +635,7 @@
 }
 
 .places-section2-wrapper {
-  background-image: url(../images/travel-place/Rocks.jpg);
+  background-image: url(./images/travel-place/Rocks.jpg);
   background-color: #cccccc;
   background-position-y: bottom;
   background-size: cover;
@@ -664,7 +664,7 @@
 }
 
 .tourist-quote-wrapper {
-  background-image: url(../images/tourist-quote/footer-bg.jpg);
+  background-image: url(./images/tourist-quote/footer-bg.jpg);
   background-color: #cccccc;
   background-position-y: bottom;
   background-size: cover;

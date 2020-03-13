@@ -1,5 +1,5 @@
 .places-section1-wrapper{
-    background-image: url(../images/travel-place/house.jpg);
+    background-image: url(./images/travel-place/house.jpg);
     @include background-fluid;
     .places-section1{
         padding-top: 228px;
@@ -40,7 +40,7 @@
 }
 
 .places-section2-wrapper{
-    background-image: url(../images/travel-place/Rocks.jpg);
+    background-image: url(./images/travel-place/Rocks.jpg);
     @include background-fluid;
     .places-section2{
         padding-top: 228px;
