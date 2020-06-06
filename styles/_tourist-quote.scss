@@ -2,8 +2,9 @@
     background-image: url(./images/tourist-quote/footer-bg.jpg);
     @include background-fluid;
     .tourist-quote{
+        padding-top: 110px;
+        padding-bottom: 180px;
         .tourist-quote__content{
-            padding-top: 110px;
             .tourist-quote__title{
                 text-align: center;
                 @include title;
@@ -55,17 +56,34 @@
         }
     }
 }
-
-@media (max-width: 1200px){
+@media (max-width: 542px){
+    .tourist-quote__content-box{
+        width: 100% !important;
+    }
+    .tourist-quote__title{
+        font-size: 26px !important;
+    }
+}
+@media (max-width: 1200px) {
+    .tourist-quote{
+        padding: 10% 1% 5% 1% !important;
+    }
+    .tourist-quote__title{
+        margin-bottom: 10% !important;
+    }
     .tourist-quote__content-box{
         flex-direction: column !important;
-        .tourist-quote__content-img{
-            width: 85% !important;
-            margin: 0 auto;
-        }
-        .tourist-quote__content-article{
-            width: 85% !important;
-            margin: 0 auto;
-        }
+        margin: 0 auto;
+    }
+    .tourist-quote__content-img{
+        width: 100% !important;
+    }
+    .tourist-quote__content-article{
+        width: 100% !important;
+    }
+}
+@media (min-width: 542px) and (max-width: 1200px) {
+    .tourist-quote__content-box{
+        width: 80% !important;
     }
 }

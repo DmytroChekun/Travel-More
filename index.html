@@ -13,6 +13,7 @@
         crossorigin="anonymous"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
     <!--===========================================================-Header-=============================================================================================-->
     <header class="header-wrapper container-fluid">
         <div class="header container">
-            <div class="header__content-wrapper row">
+            <div class="header__content-wrapper">
                 <h1 class="header__title">Bhromaon</h1>
                 <h3 class="header__subtitle">Safe Travel Anywhere</h3>
                 <form class="header__form">
@@ -40,8 +41,9 @@
     </header>
     <div class="nav-wrapper-fluid container-fluid">
         <div class="nav-wrapper container">
-            <nav class="nav row">
+            <nav class="nav">
                 <h3 class="nav__title">Bhromaon</h3>
+                <svg class="nav__menu-button" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" stroke="#fff" sd="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
                 <div class="nav__item-wrapper">
                     <a class="link" href=""><div class="nav__item">Who We Are</div></a>
                     <a class="link" href=""><div class="nav__item">What We Do</div></a>
@@ -90,15 +92,15 @@
     <div class="how-it-works-wrapper container-fluid" id="how-works">
         <div class="how-it-works container">
             <div class="how-it-works__article-wrapper row">
-                <article class="how-it-works__article col-4">
+                <article class="how-it-works__article">
                     <img class="how-it-works__ico" src="./images/how-it-works/search.svg">
                     <p class="how-it-works__title">Search Places</p>
                 </article>
-                <article class="how-it-works__article col-4">
+                <article class="how-it-works__article">
                     <img class="how-it-works__ico" src="./images/how-it-works/select.svg">
                     <p class="how-it-works__title">Select Places</p>
                 </article>
-                <article class="how-it-works__article col-4">
+                <article class="how-it-works__article">
                     <img class="how-it-works__ico" src="./images/how-it-works/book.svg">
                     <p class="how-it-works__title">Book & Enjoy</p>
                 </article>
@@ -148,8 +150,8 @@
     <!--=============================================================-tourist-quote-==================================================================================-->
     <div class="tourist-quote-wrapper container-fluid" id="quote">
         <div class="tourist-quote container">
-            <div class="tourist-quote__content row">
-                <h2 class="tourist-quote__title col-12">What Our Tourist Say</h2>
+            <div class="tourist-quote__content">
+                <h2 class="tourist-quote__title">What Our Tourist Say</h2>
                 <div class="tourist-quote__content-box">
                     <img class="tourist-quote__content-img" src="./images/tourist-quote/footer-img.jpg">
                     <div class="tourist-quote__content-article">
@@ -182,6 +184,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

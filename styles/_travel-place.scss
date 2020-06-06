@@ -17,7 +17,6 @@
         background-color: rgba(35, 35, 35, 0.902);
         width: 540px;
         height: 371px;
-        min-width: 320px;
         padding: 45px 30px 50px 30px;
     .article__country{
         @include p-title-top;
@@ -57,3 +56,19 @@
 }
 
 *{transition: all 0.1s ease-in-out;}
+
+@media (max-width: 408px){
+    .article{
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+        width: 100% !important;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .places-section1, .places-section2{
+        width: 100% !important;
+        padding: 10% 1.5% !important;
+        
+    }
+}

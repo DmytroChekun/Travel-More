@@ -21,6 +21,7 @@
             margin: 0 auto;
             display: flex;
             flex-direction: column;
+            align-items: center;
             .header__title{
                 font-family: $text-font;
                 text-transform: uppercase;
@@ -28,7 +29,7 @@
                 font-size: 48px;
                 font-weight: 500;
                 letter-spacing: 0.07em;
-                text-align: center;
+                
             }
             .header__subtitle{
                 font-family: $text-font;
@@ -36,9 +37,9 @@
                 font-size: 22px;
                 font-weight: 300;
                 letter-spacing: 0.27em;
-                text-align: center;
                 margin-top: -8px;
                 margin-bottom: 47px;
+                text-align: center;
             }
             .header__form{
                 margin: 0 auto;
@@ -48,9 +49,8 @@
                 width: 33.8vw;
                 min-width: 450px;
                 box-sizing: border-box;
-                height: 60px;
                 .search{
-                    outline:none;
+                    outline: none;
                     border: none;
                     width: 77.5%;
                     text-align: center;
@@ -61,7 +61,7 @@
                     font-weight: 300;
                 }
                 .search-button{
-                    outline:none;
+                    outline: none;
                     border: none;
                     width: 146px;
                     height: 56px;
@@ -207,6 +207,13 @@
                     outline: 2px orange solid;
                 }
             }
+            &__menu-button{
+                width: 40px;
+                height: 40px;
+                z-index: 999;
+                stroke: green !important;
+                fill: #fff !important;
+            }
         }
     }
 }
@@ -250,3 +257,21 @@
     }
 }
 
+@media (max-width: 450px){
+    .header__form{
+        height: 85px !important;
+        border: none !important;
+    }
+    .search{
+        margin-bottom: 2px;
+    }
+    .header__title{
+        font-size: 32px !important;
+    }
+    .header__subtitle{
+        font-size: 16px !important;
+    }
+    .search{
+        font-size: 12px !important;
+    }
+}
